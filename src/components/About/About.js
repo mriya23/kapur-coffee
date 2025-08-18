@@ -12,17 +12,13 @@ const About = () => {
             <h3>Welcome to Kapur Coffee</h3>
             <p>
               Founded in 2015, Kapur Coffee began as a small passion project between two friends 
-              who shared a love for exceptional coffee and community. Today, we've grown into a 
-              beloved local destination where coffee enthusiasts gather to experience the perfect brew.
+              who shared a love for exceptional coffee and community Today, we've grown into a beloved local destination where coffee enthusiasts gather to experience the perfect brew.
             </p>
             <p>
-              Our name "Kapur" comes from the Indonesian word for chalk, symbolizing the blank canvas 
-              we start with each day to create something beautiful and unique for our customers.
+              Our name "Kapur" comes from the Indonesian word for chalk, symbolizing the blank canvas we start with each day to create something beautiful and unique for our customers.
             </p>
             <p>
-              We source only the finest specialty beans from sustainable farms around the world, 
-              roasting them in-house to unlock their full potential. Every cup is crafted with 
-              precision and care by our skilled baristas.
+              We source only the finest specialty beans from sustainable farms around the world, roasting them in-house to unlock their full potential. Every cup is crafted with precision and care by our skilled baristas.
             </p>
             
             <div className="about-stats">
@@ -42,8 +38,8 @@ const About = () => {
           </div>
           
           <div className="about-image-container">
-            <div className="image-full"></div>
-          </div>
+            <img src="/assets/about.jpg" alt="Kapur Coffee" className="image-full" />
+        </div>
         </div>
       </div>
     </section>

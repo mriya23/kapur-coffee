@@ -175,11 +175,11 @@ const Menu = () => {
               <div className="item-price">
                 {item.prices ? (
                   <div className="multiple-prices">
-                    <span>Rp{item.prices[0].toLocaleString()}</span>
-                    <span>Rp{item.prices[1].toLocaleString()}</span>
+                    <span>{item.prices[0].toLocaleString()}</span>
+                    <span>{item.prices[1].toLocaleString()}</span>
                   </div>
                 ) : (
-                  `Rp${item.price.toLocaleString()}`
+                  `${item.price.toLocaleString()}`
                 )}
               </div>
             </div>
