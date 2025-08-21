@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaShoppingBag } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -28,6 +28,13 @@ const Footer = () => {
                   alt="Tokopedia" 
                   className="tokopedia-logo"
                 />
+              </a>
+              <a href="https://food.grab.com/id/id/restaurant/online-delivery/6-C6EFDE3XRJKDJA?sourceID=20241014_195243_EFD309725A6849708F149D8BAC1E75EC_MEXMPS" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 aria-label="GrabFood"
+                 className="grabfood-icon">
+                <FaShoppingBag />
               </a>
             </div>
           </div>
