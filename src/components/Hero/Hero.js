@@ -19,7 +19,15 @@ const Hero = () => {
       </div>
       
       <div className="hero-overlay"></div>
-      <div className="hero-image"></div>
+      <div 
+        className="hero-image"
+        style={{ 
+          backgroundImage: `url(${process.env.PUBLIC_URL}/assets/hero.jpg)`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+        }}
+      ></div>
       
       <div className="hero-scroll">
         <div className="scroll-line"></div>
