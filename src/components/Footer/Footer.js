@@ -46,7 +46,7 @@ const Footer = () => {
               <li><a href="#about">About Us</a></li>
               <li><a href="#menu">Menu</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="https://www.tokopedia.com/kapurcoffee" target="_blank" rel="noopener noreferrer">Order Online</a></li>
+              <li><a href="https://www.tokopedia.com/kapurcoffee" target="_blank" rel="noopener noreferrer">merchandise</a></li>
             </ul>
           </div>
           
