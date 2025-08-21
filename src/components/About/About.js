@@ -11,7 +11,7 @@ const About = () => {
           <div className="about-text">
             <h3>Welcome to Kapur Coffee</h3>
             <p>
-              Founded in 2015, Kapur Coffee began as a small passion project between two friends 
+              Founded in 2023, Kapur Coffee began as a small passion project between two friends 
               who shared a love for exceptional coffee and community Today, we've grown into a beloved local destination where coffee enthusiasts gather to experience the perfect brew.
             </p>
             <p>
@@ -23,15 +23,15 @@ const About = () => {
             
             <div className="about-stats">
               <div className="stat-item">
-                <h4>8+</h4>
+                <h4>2+</h4>
                 <p>Years Experience</p>
               </div>
               <div className="stat-item">
-                <h4>15+</h4>
+                <h4>10+</h4>
                 <p>Expert Baristas</p>
               </div>
               <div className="stat-item">
-                <h4>50+</h4>
+                <h4>30+</h4>
                 <p>Unique Blends</p>
               </div>
             </div>
