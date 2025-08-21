@@ -45,10 +45,10 @@
 .about-image-container {
   flex: 1;
   position: relative;
-  width: 85%;       /* perkecil lagi */
-  max-width: 380px; /* lebih kecil dari sebelumnya */
+  width: 85%;       
+  max-width: 380px; 
   min-height: 380px;
-  margin: 0 auto;   /* biar tetap center */
+  margin: 0 auto;   
 }
 
 .image-full {
@@ -58,7 +58,7 @@
   border-radius: 30px;
 }
 
-/* Responsif */
+
 @media (max-width: 992px) {
   .about-content {
     flex-direction: column;
